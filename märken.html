@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="mims.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="omoss.css">
+    <script src="https://kit.fontawesome.com/fc5050a899.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Raleway&display=swap" rel="stylesheet">
+    <title>Butik Monika | Våra märken</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-text">
+                <h1 class="rubrik">Butik Monika</h1>
+                <p class="breadtext">Mode bleknar stil består.</p>
+            </div>
+            <div class="header-nav breadtext">
+                <nav>
+                    <div class="dropdown meny"> <!--dropdown meny för mobil, syns inte på tablet eller laptop-->
+                        <button class="btn btn-secondary dropdown-toggle knapp" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="index.html">Hem</a></li>
+                          <li><a class="dropdown-item" href="#">Kläder</a></li>
+                          <li><a class="dropdown-item" href="märken.html">Våra märken</a></li>
+                          <li><a class="dropdown-item" href="om.html">Om oss</a></li>
+                        </ul>
+                      </div>
+                    <ul> <!--Lista i nav för länkar-->
+                        <li><a href="index.html" >Hem</a></li>
+                        <li>
+                            <div class="dropdown"> <!--dropdown meny för kläder, länkar leder ingenstans-->
+                                <a class="btn btn-secondary dropdown-toggle knapp" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Kläder
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Tröjor</a></li>
+                                  <li><a class="dropdown-item" href="#">Klänningar</a></li>
+                                  <li><a class="dropdown-item" href="#">Byxor</a></li>
+                                </ul>
+                              </div>
+                        </li>
+                        <li><a href="märken.html" class="header-aktiv">Våra märken</a></li>
+                        <li><a href="om.html">Om oss</a></li>
+                    </ul>
+                    <div class="btn-group dropend"> <!--Sökfunktion dropright-->
+                        <button type="button" class="btn btn-secondary dropdown-toggle knapp" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <input type="text" placeholder="Sök..." class="header-search">
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>        
+    </header>
+
+    <main>
+        <div class="picture-top">
+            <img src="bilder/ullkort.jpg" alt="Ull">
+        </div>
+        <div class="picture-rubrik">
+            <h2>Våra märken</h2>
+        </div>
+        <div class="container-moa">
+          <div class="om">
+            <div class="container sortiment-pictures">
+              <div class="row row-cols-2  row-cols-lg-3 g-3" id="sortiment-hero">
+                  <div class="col">
+                      <div class="card .h-100">
+                        <img src="bilder/6.png" class="card-img-top" alt="Klänningar">
+                        <div class="card-body">
+                          <h5 class="card-title">Cleobella</h5>
+                          <p class="card-text breadtext">Cleobella skapar plagg som är inspirerade av världen, de är etiskt handgjorda med använding av organisk bomull, 
+                          OEKO-TEX certifierade lappar, naturella knappar och giftfri färg. </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card .h-100">
+                        <img src="bilder/5.png" class="card-img-top" alt="Tröjor">
+                        <div class="card-body">
+                          <h5 class="card-title">Kowtow</h5>
+                        <p class="card-text breadtext">Med Fair Trade certifierat bomullstyg och SA8000 certifierade arbetsförhållanden är Kowtow ett högkvalitativt klädmärke.</p>
+                      </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card .h-100">
+                        <img src="bilder/4.png" class="card-img-top" alt="Jackor">
+                        <div class="card-body">
+                          <h5 class="card-title">Thought</h5>
+                        <p class="card-text breadtext">Thought är ett klädföretag vars simpla filosofi är att designa och skapa vackra, tidlösa plagg medans de värnar om miljön.</p>
+                      </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="card .h-100">
+                        <img src="bilder/3.png" class="card-img-top" alt="Byxor">
+                        <div class="card-body">
+                          <h5 class="card-title">For Days</h5>
+                        <p class="card-text breadtext">95% av använda kläder som kastas kan återanvändas eller återvinnas, vilket är precis vad For Days gör. 
+                          De jobbar med organisk bomull för att skapa basplagg till alla.</p>
+                      </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card .h-100">
+                      <img src="bilder/2.jpg" class="card-img-top" alt="Byxor">
+                      <div class="card-body">
+                        <h5 class="card-title">Pact</h5>
+                      <p class="card-text breadtext">Pact gör mjuka och miljövänliga bomullskläder för barn och vuxna.</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                  <div class="card .h-100">
+                    <img src="bilder/1.png" class="card-img-top" alt="Byxor">
+                    <div class="card-body">
+                      <h5 class="card-title">Vetta</h5>
+                    <p class="card-text breadtext">Vettas mål är att hjälpa dig skapa en kapselgarderob fylld med kläder som du använder. Du kan köpa en fem dels garderob som kan användas till 30 olika outfits.</p>
+                  </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+    <!-- Vip-medlem knapp -->
+    <button type="button" class="btn btn-secondary vip" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Bli VIP-medlem!
+        </button>
+      
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Bli VIP-medlem!!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body form">
+                <form action="/onSubmit.php">
+                    <label for="namn">Namn:</label>
+                    <input type="text" name="name" id="namn">
+    
+                    <label for="mail">E-mail:</label>
+                    <input type="text" name="email" id="mail">
+                </form>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Stäng</button>
+                <button type="button" class="btn btn-primary">Klar!</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </main>
+    
+
+
+
+    
+
+    
+    <footer class=" text-center text-lg-left border border-white mt-xl-5 pt-4 hej-footer "> <!--Footer-->
+      <div class="container p-4">
+       <!--Grid row-->
+       <div class="row d-flex justify-content-center align-items">
+         <!--Grid column-->
+         <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+           <h5 class="text-uppercase mb-4 hej-footer-rubrik">Adress</h5>
+           <ul class="list-unstyled mb-4">
+             <li>
+               <span>Butik Monika</span>
+             </li>
+             <li>
+               <span>Arosgatan 1</span>
+             </li>
+             <li>
+               <span>416 56 Göteborg</span>
+             </li>
+           </ul>
+         </div>
+           <!--Grid column-->
+           <!--Grid column-->
+         <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                     <h5 class="text-uppercase mb-4 hej-footer-rubrik">Öppettider</h5>
+                     <table class="table text text-white table-border">
+                       <tbody class="fw-normal">
+                         <tr>
+                           <td>Tisdag</td>
+                           <td>13.00-18.00</td>
+                         </tr>
+                         <tr>
+                           <td>Onsdag</td>
+                           <td>13.00-18.00</td>
+                         </tr>
+                         <tr>
+                           <td>Torsdag</td>
+                           <td>13.00-18.00</td>
+                         </tr>
+                       </tbody>
+                     </table>
+          
+         </div>
+         <!--Grid column-->
+          <!--Grid column-->
+         <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 ">
+                     <h5 class="text-uppercase mb-4 hej-footer-rubrik ">Följ oss</h5>
+                     <!-- Facebook -->
+                     <a
+                        class="btn btn-primary btn-floating m-1 hej-footer-icon"
+                        style="background-color: #3b5998"
+                        href="#!"
+                        role="button"
+                        ><i class="fab fa-facebook-f hej-footer-icon-icon"></i
+                       ></a>
+         
+                     <!-- Twitter -->
+                     <a
+                        class="btn btn-primary btn-floating m-1 hej-footer-icon"
+                        style="background-color: #55acee"
+                        href="#!"
+                        role="button"
+                        ><i class="fab fa-twitter hej-footer-icon-icon"></i
+                       ></a>
+         
+                     <!-- Google -->
+                     <a
+                        class="btn btn-danger btn-floating m-1 hej-footer-icon"
+                        style="background-color: #333030"
+                        href="#!"
+                        role="button"
+                        ><i class="fa-brands fa-tiktok"></i>
+                       </a>
+         
+                     <!-- Instagram -->
+                     <a
+                        class="btn btn-danger btn-floating m-1 hej-footer-icon"
+                        style="background-color: #dd5779"
+                        href="#!"
+                        role="button"
+                        ><i class="fab fa-instagram hej-footer-icon-icon"></i
+                       ></a>
+     
+         </div>
+         <!--Grid column-->
+         <!--Grid column-->
+         <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+           <h5 class="text-uppercase mb-4 hej-footer-rubrik">Kontakta oss</h5>
+           <div class="form-outline form-white mb-4">
+             <input type="email" id="form5Example2" class="form-control" />
+             <label class="form-label" for="form5Example2">Email address</label>
+           </div>
+           <form>
+             <label class="form-label" for="meddelande">Meddelande</label>
+             <textarea name="meddelande" id="" cols="30" rows="4" placeholder="skriv här">   
+             </textarea>
+               <input type = "submit" value = "skicka" />
+           </form>
+         </div>
+         <!--Grid column-->
+       </div>
+     <!--Grid row-->
+     </div> 
+     <!-- Copyright -->
+      <div class="text-center p-3 border-top border-white">
+       © 2022
+       <a class="text-white" href="https://mdbootstrap.com/">Monikasbutik.se</a>
+       </div>
+     <!-- Copyright -->
+     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

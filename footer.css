@@ -1,0 +1,16 @@
+.hej-footer {
+    background-color: rgb(134, 120, 100);
+    color: white;
+
+
+}
+
+.hej-footer-icon {
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.hej-footer-rubrik {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

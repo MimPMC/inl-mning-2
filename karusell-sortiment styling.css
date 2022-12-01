@@ -1,0 +1,88 @@
+* {
+    font-family: 'Raleway', sans-serif; 
+}
+
+/* Karusellstyling*/
+#carouselHero .carousel-item img  {
+    /*FIXAR RESPONSIVITET PÅ BILDER*/
+    object-fit: cover;
+    object-position: center;
+    height: 40vh;
+    overflow: hidden;
+  }
+  #carouselHero .carousel-item:before { 
+    /*SVART GRADIENT ÖVER BILD PÅ KARUSELL*/
+    content: "";
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.8));
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+
+
+
+
+.sortiment {
+    height: auto;
+}
+
+.sortiment-img {
+    width: 100%;
+    border-radius: 0;
+}
+
+.container-3bilder{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+ }
+@media (min-width: 768px) { 
+    .container-3bilder {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .sortiment-img {
+        width: 33%;
+    }
+}
+
+
+.sortiment-rubrik-container {
+    margin-top: 1.5rem;
+    height: 4rem;
+}
+
+.sortiment-area {
+    margin-left: auto;
+    margin-right:auto;
+    min-width: 50%;
+    justify-content: center;
+    
+  }
+
+  .slurp {
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+  
+  }
+  .main2-sortimet-title {
+      display:flex;
+    }
+    .main2-sortimet-title:before, .main2-sortimet-title:after {
+      content:'';
+      flex:1;
+      border-bottom:solid 2px;
+      border-color: black;
+      margin:auto ;
+    }
+  
+    .sortiment-pic-card-overlay {
+        background-image: linear-gradient(to bottom, transparent, rgba(78, 76, 65, 0.8));
+     }

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="mims.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="omoss.css">
+    <script src="https://kit.fontawesome.com/fc5050a899.js" crossorigin="anonymous"></script>
+    <title>Butik Monika | Om oss</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-text">
+                <h1 class="rubrik">Butik Monika</h1>
+                <p class="breadtext">Mode bleknar stil består.</p>
+            </div>
+            <div class="header-nav breadtext">
+                <nav>
+                    <div class="dropdown meny"> <!--dropdown meny för mobil, syns inte på tablet eller laptop-->
+                        <button class="btn btn-secondary dropdown-toggle knapp" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="index.html">Hem</a></li>
+                          <li><a class="dropdown-item" href="#">Kläder</a></li>
+                          <li><a class="dropdown-item" href="märken.html">Våra märken</a></li>
+                          <li><a class="dropdown-item" href="om.html">Om oss</a></li>
+                        </ul>
+                      </div>
+                    <ul> <!--Lista i nav för länkar-->
+                        <li><a href="index.html">Hem</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <a class="btn btn-secondary dropdown-toggle knapp" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Kläder
+                                </a>
+                                <ul class="dropdown-menu"> <!--dropdown meny för kläder, länkar leder ingenstans-->
+                                  <li><a class="dropdown-item" href="#">Tröjor</a></li>
+                                  <li><a class="dropdown-item" href="#">Klänningar</a></li>
+                                  <li><a class="dropdown-item" href="#">Byxor</a></li>
+                                </ul>
+                              </div>
+                        </li>
+                        <li><a href="märken.html">Våra märken</a></li>
+                        <li><a href="om.html" class="header-aktiv">Om oss</a></li>
+                    </ul>
+                    <div class="btn-group dropend"> <!--Sökfunktion dropright-->
+                        <button type="button" class="btn btn-secondary dropdown-toggle knapp" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <input type="text" placeholder="Sök..." class="header-search">
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>        
+    </header>
+
+    <main>
+        <div class="picture-top">
+            <img src="bilder/ullkort.jpg" alt="Ull">
+        </div>
+        <div class="picture-rubrik">
+            <h2>Om oss</h2>
+        </div>
+        <div class="container-moa">
+            <div class="om">
+                <h2>Butik Monika</h2>
+                <p class="breadtext">
+                   <b>Kunskap och kvalité</b><br>
+                    För mig är det ganska enkelt, "Så länge jag kan vill jag jobba med produkter 
+                    som jag verkligen tycker om, och känner för".
+                </p>
+                <p class="breadtext">
+                    Naturmaterial som ull, bomull och lin ligger mig varmt om hjärtat. Jag säljer 
+                    kläder utformade av duktiga designers med höga kvalitetskrav. Det är min övertygelse
+                    att jag inte är ensam om denna smakriktning, och min förhoppning är att glädja många med mina personliga varor.
+                </p>
+                <p class="breadtext">
+                    Min erfarenhet och utbildning i dräkt,- och klänningssömnad, studier vid Stockholms-tillskärningsakademi och 
+                    Køpenhavns Tilskærer-akademi, ger dig möjlighet att ställa stora krav pa klädernas passform. Då jag i egen 
+                    syateljé bjuder på de ändringar som behövs.
+                </p>
+                <p class="breadtext">
+                    <b>Öppettider butik</b><br>
+                    Tis-Tors 13:00-18:00
+                </p>
+                <div class="om-pictures">
+                    <div class="om-bild">
+                        <img src="bilder/bomull.jpg" alt="Hög med bomullstyg">
+                    </div>
+                    <div class="om-bild">
+                        <img src="bilder/symaskin.jpg" alt="Symaskin">
+                    </div>
+                    <div class="om-bild">
+                        <img src="bilder/linne.jpg" alt="Skjorta i linne">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Vip-medlem knapp -->
+    <button type="button" class="btn btn-secondary vip" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Bli VIP-medlem!
+        </button>
+      
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Bli VIP-medlem!!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body form">
+                <form action="/onSubmit.php">
+                    <label for="namn">Namn:</label>
+                    <input type="text" name="name" id="namn">
+    
+                    <label for="mail">E-mail:</label>
+                    <input type="text" name="email" id="mail">
+                </form>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Stäng</button>
+                <button type="button" class="btn btn-primary">Klar!</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class=" text-center text-lg-left border border-white mt-xl-5 pt-4 hej-footer breadtext">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              <h5 class="text-uppercase mb-4">Adress</h5>
+              <ul class="list-unstyled mb-4">
+                <li>
+                  <span>Butik Monika</span>
+                </li>
+                <li>
+                    <span>Arosgatan 1</span>
+                </li>
+                <li>
+                  <span>416 56 Göteborg</span>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                <h5 class="text-uppercase mb-4">Öppettider</h5>
+                <table class="table text text-white table-border">
+                  <tbody class="fw-normal">
+                    <tr>
+                      <td>Tisdag</td>
+                      <td>13.00-18.00</td>
+                    </tr>
+                    <tr>
+                      <td>Onsdag</td>
+                      <td>13.00-18.00</td>
+                    </tr>
+                    <tr>
+                      <td>Torsdag</td>
+                      <td>13.00-18.00</td>
+                    </tr>
+                  </tbody>
+                </table>
+     
+            </div>
+            <!--Grid column-->
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 ">
+                <h5 class="text-uppercase mb-4 ">Följ oss</h5>
+                <!-- Facebook -->
+                <a
+                   class="btn btn-primary btn-floating m-1 hej-footer-icon"
+                   style="background-color: #3b5998"
+                   href="#!"
+                   role="button"
+                   ><i class="fab fa-facebook-f hej-footer-icon-icon"></i
+                  ></a>
+    
+                <!-- Twitter -->
+                <a
+                   class="btn btn-primary btn-floating m-1 hej-footer-icon"
+                   style="background-color: #55acee"
+                   href="#!"
+                   role="button"
+                   ><i class="fab fa-twitter hej-footer-icon-icon"></i
+                  ></a>
+    
+                <!-- Google -->
+                <a
+                   class="btn btn-danger btn-floating m-1 hej-footer-icon"
+                   style="background-color: #333030"
+                   href="#!"
+                   role="button"
+                   ><i class="fa-brands fa-tiktok"></i>
+                  </a>
+    
+                <!-- Instagram -->
+                <a
+                   class="btn btn-danger btn-floating m-1 hej-footer-icon"
+                   style="background-color: #dd5779"
+                   href="#!"
+                   role="button"
+                   ><i class="fab fa-instagram hej-footer-icon-icon"></i
+                  ></a>
+
+            </div>
+            <!--Grid column-->
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              <h5 class="text-uppercase mb-4">Kontakta oss</h5>
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example2" class="form-control" />
+                <label class="form-label" for="form5Example2">Email address</label>
+              </div>
+              <form>
+                Meddelande
+                <textarea class="" style="width: 100%; height:auto">
+                </textarea>
+                <input type = "submit" value = "Skicka" />
+             </form>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+        <!-- Copyright -->
+        <div class="text-center p-3 border-top border-white">
+          © 2022
+          <a class="text-white" href="https://mdbootstrap.com/">Monikasbutik.se</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+   
+    
+    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

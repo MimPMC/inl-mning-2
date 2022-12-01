@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    transition: color 0.4s ease-in-out;
+}
+
+a:hover {
+    color: #867864;
+}
+
+main {
+    margin-top: 10.9rem;
+}
+
+/* header styling */
+header {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #eae6da;
+    color: #000000;
+    z-index: 100;
+}
+
+.header-container {
+    width: 70rem;
+    background-color: #eae6da;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.header-text h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 3rem;
+    padding: 0.5rem;
+}
+
+.header-text p {
+    font-size: 1.2rem;
+}
+
+.header-aktiv {
+    border-bottom: 2px solid #000000;
+}
+
+
+.meny {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 4rem;
+    margin-top: -1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+
+nav li {
+    padding: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.btn-primary {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #e8bdf1;
+    --bs-btn-border-color: #e8bdf1;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #a383aa;
+    --bs-btn-hover-border-color: #a383aa;
+}
+
+.btn-secondary {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #eae6da;
+    --bs-btn-border-color: #eae6da;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #867864;
+    --bs-btn-hover-border-color: #867864;
+}
+
+.header-search {
+    border: none;
+}
+
+/* main */
+.vip {
+	position: fixed;
+	left: -3rem;
+	bottom: 6rem;
+	transform: rotate(-90deg);
+	background-color: #eae6da;
+	color: #000;
+	border: #eae6da;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+/* Fonts */
+.rubrik {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.breadtext {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* media queries */
+/* tablet */
+@media (min-width: 48em) and (max-width: 63em) {
+    .header-container {
+        background: #eae6da;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    main {
+        margin-top: 5rem;
+    }
+}
+
+/* mobile */
+@media (max-width: 48em) {
+    .header-container {
+        background: #eae6da;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav {
+        justify-content: left;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .header-dropdown {
+        display: inline-block;
+    }
+
+    .meny {
+        display: flex;
+    }
+}

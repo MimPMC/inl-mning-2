@@ -1,0 +1,120 @@
+/* start bild på sidan */
+.picture-top {
+    height: 8rem;
+
+}
+
+.picture-top img {
+    width: 100%;
+
+}
+
+.picture-rubrik {
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.picture-rubrik h2 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+/* allt innehåll efter startbilden */
+.container-moa {
+    width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 0;
+    margin-top: 4rem;
+    z-index: 4;
+    background-color: #fff;
+}
+
+.om {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    z-index: 4;
+}
+
+.om-pictures {
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+}
+
+.om-bild img {
+    width: 100%;
+    padding: 1rem;
+}
+
+/* våra märken styling */
+.fyrakort {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.kort {
+    margin: 1rem;
+    justify-content: center;
+    border-radius: 0;
+}
+
+.kort img {
+    border-radius: 0;
+}
+
+.sortiment-pictures {
+    padding: 0;
+}
+
+
+/* Media queries */
+/* Storlek mellan tablet och laptop */
+@media (min-width: 63em) and (max-width: 80em) {
+    .container-moa {
+        width: 100%;
+    }
+}
+/* tablet */
+@media (min-width: 48em) and (max-width: 63em) {
+    .container {
+        margin-top: 0;
+    }
+
+    .container-moa {
+        width: 100%;
+    }
+}
+
+/* mobile */
+@media (max-width: 48em) {
+    .container {
+        width: 100%;
+    }
+    .om-pictures {
+        flex-direction: column;
+    }
+
+    .fyrakort {
+        flex-direction: column;
+    }
+
+    .container-moa {
+        width: 100%;
+    }
+
+    .picture-rubrik h2{
+        color: black;
+    }
+
+    .vip {
+        display: none;
+    }
+}
+

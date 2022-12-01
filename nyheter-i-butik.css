@@ -1,0 +1,8 @@
+
+.hej-butiken {
+    height: 20rem;
+}
+.hej-nyheter-flex {
+    display: flex;
+    flex-direction: column;
+}
